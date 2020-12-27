@@ -24,7 +24,7 @@ Private repos will stay private until told otherwise.
 </a>
 
 ## Support & Suggestions
-<img src="https://www.lter-europe.net/document-archive/image-gallery/albums/logos/TwitterLogo_55acee.png/image" width="25px"> **[Send me a message](https://twitter.com/0xkuj)**
+<img src="https://www.lter-europe.net/document-archive/image-gallery/albums/logos/TwitterLogo_55acee.png/image" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
 
 
 <!--
