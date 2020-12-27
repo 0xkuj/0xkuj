@@ -5,7 +5,7 @@
 Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
-# Projects reviews
+# Projects Reviews
 * [LS Contacts](https://www.idownloadblog.com/2020/10/10/ls-contacts/)
 * [Bubble Apps](https://kubadownload.com/news/bubble-apps-tweak/)
 * [Social Composer](https://www.idownloadblog.com/2020/12/20/social-composer/)
@@ -15,7 +15,7 @@ Private repos will stay private until told otherwise.
 * [GlobAlarmSettings](https://www.techacrobat.com/best-unc0ver-jailbreak-tweaks/#44_Glob_Alarm_Settings)
 
 
-## My GitHub stats:
+## My GitHub Stats:
 <a href="#stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=radical&show_icons=true&hide=stars&count_private=true">
 </a>
