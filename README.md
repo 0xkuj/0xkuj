@@ -1,4 +1,8 @@
 ### Hi there 👋
+[![0xkuj's github stats](https://github-readme-stats.vercel.app/api?username=0xkuj&theme=radical&show_icons=true&hide=stars&count_private=true)](https://github.com/0xkuj/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0xkuj&count_private=true&theme=blueberry)](https://github.com/0xkuj/github-readme-stats)
+
 
 <!--
 **0xkuj/0xkuj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
