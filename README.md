@@ -1,3 +1,5 @@
+_Everything looks better with dark mode. change your settings here -> [(Theme settings)](https://github.com/settings/appearance)_
+
 # ✨--0xkuj's HUB--✨
 
 **This repository contains my open-source tweaks/scripts/Cydia HTML repository code.**
