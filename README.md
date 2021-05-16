@@ -15,6 +15,7 @@ Private repos will stay private until told otherwise.
 * [CCCounters](https://kubadownload.com/news/cccounters/)
 * [SiriTTL (Time To Live)](https://www.idownloadblog.com/2020/06/27/siri-ttl/)
 * [GlobAlarmSettings](https://www.techacrobat.com/best-unc0ver-jailbreak-tweaks/#44_Glob_Alarm_Settings)
+* [Green Pass](https://ioshacker.com/news/green-pass-tweak-lets-you-display-any-photo-with-an-activator-gesture)
 
 ## My GitHub Stats:
 <a href="#stats">
