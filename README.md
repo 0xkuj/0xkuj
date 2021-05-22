@@ -24,7 +24,7 @@ Private repos will stay private until told otherwise.
 </a>
 
 <a href="#stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=radical&show_icons=true&hide=stars&count_private=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=radical&show_icons=true&count_private=true">
 </a>
 
 
