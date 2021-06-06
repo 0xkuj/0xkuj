@@ -20,7 +20,7 @@ Private repos will stay private until told otherwise.
 
 ## My GitHub Stats:
 <a href="#stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xkuj&include_all_commits=false&count_private=true&theme=blueberry" alt="0xkuj's GitHub Stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=false&theme=blueberry" alt="0xkuj's GitHub Stats">
 </a>
 
 <a href="#stats">
