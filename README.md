@@ -19,14 +19,16 @@ Private repos will stay private until told otherwise.
 
 
 ## My GitHub Stats:
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
+
 <a href="#stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=true&theme=blueberry&hide=Perl" alt="0xkuj's GitHub Stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=true&theme=dracula&hide=Perl" alt="0xkuj's GitHub Stats">
 </a>
 
 <a href="#stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=radical&show_icons=true&count_private=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
 </a>
-
 
 ## Support & Suggestions
 <img src="https://www.lter-europe.net/document-archive/image-gallery/albums/logos/TwitterLogo_55acee.png/image" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
