@@ -8,6 +8,7 @@ Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
 # Projects Reviews
+* [Contacts Extended](https://www.idownloadblog.com/2021/08/03/contacts-extended/)
 * [LS Contacts](https://www.idownloadblog.com/2020/10/10/ls-contacts/)
 * [Green Pass](https://ioshacker.com/news/green-pass-tweak-lets-you-display-any-photo-with-an-activator-gesture)
 * [Social Composer](https://www.idownloadblog.com/2020/12/20/social-composer/)
