@@ -9,8 +9,8 @@ Private repos will stay private until told otherwise.
 
 # Projects Reviews
 * [Contacts Extended](https://www.idownloadblog.com/2021/08/03/contacts-extended/)
-* [LS Contacts](https://www.idownloadblog.com/2020/10/10/ls-contacts/)
 * [Green Pass](https://ioshacker.com/news/green-pass-tweak-lets-you-display-any-photo-with-an-activator-gesture)
+* [LS Contacts](https://www.idownloadblog.com/2020/10/10/ls-contacts/)
 * [Social Composer](https://www.idownloadblog.com/2020/12/20/social-composer/)
 * [Bubble Apps](https://kubadownload.com/news/bubble-apps-tweak/)
 * [CCTime13](https://www.newsbreak.com/news/2045886123156/cctime13-adds-a-time-indicator-to-the-status-bar-in-control-center)
