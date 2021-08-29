@@ -14,6 +14,7 @@ Private repos will stay private until told otherwise.
 * [Social Composer](https://www.idownloadblog.com/2020/12/20/social-composer/)
 * [Bubble Apps](https://kubadownload.com/news/bubble-apps-tweak/)
 * [CCTime13](https://www.newsbreak.com/news/2045886123156/cctime13-adds-a-time-indicator-to-the-status-bar-in-control-center)
+* [Hide VoIP Suggestions](https://www.idownloadblog.com/2021/08/26/hide-voip-suggestions/)
 * [CCCounters](https://kubadownload.com/news/cccounters/)
 * [SiriTTL (Time To Live)](https://www.idownloadblog.com/2020/06/27/siri-ttl/)
 * [GlobAlarmSettings](https://www.techacrobat.com/best-unc0ver-jailbreak-tweaks/#44_Glob_Alarm_Settings)
