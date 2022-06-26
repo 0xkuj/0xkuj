@@ -8,6 +8,7 @@ Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
 # Projects Reviews
+* [3DAppVersionSpoofer](https://www.idownloadblog.com/2022/06/23/3dappversionspoofer/)
 * [Docbox](https://www.idownloadblog.com/2022/01/22/docbox/)
 * [CCDNDTimer](https://ioshacker.com/cydia/ccdndtimer-tweak-lets-you-enable-dnd-mode-for-a-specific-time)
 * [Contacts Extended](https://www.idownloadblog.com/2021/08/03/contacts-extended/)
