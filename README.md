@@ -37,7 +37,7 @@ Private repos will stay private until told otherwise.
 </a>
 
 ## Support & Suggestions
-<img src="https://www.saydaily.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_410/MTM0ODg3OTkwOTMyNTc1NTA2/screen-shot-2015-12-03-at-22820-pmpng.webp" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
+<img src="[https://www.saydaily.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_410/MTM0ODg3OTkwOTMyNTc1NTA2/screen-shot-2015-12-03-at-22820-pmpng.webp](https://image.similarpng.com/very-thumbnail/2020/06/Black-icon-Twitter-logo-transparent-PNG.png)" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
 
 
 <!--
