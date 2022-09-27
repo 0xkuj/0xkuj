@@ -37,7 +37,7 @@ Private repos will stay private until told otherwise.
 </a>
 
 ## Support & Suggestions
-<img src="[https://www.lter-europe.net/document-archive/image-gallery/albums/logos/TwitterLogo_55acee.png/image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.saydaily.com%2F2018%2F01%2Ftwitter-updates&psig=AOvVaw2RpUaSNbcGOWPXj5qbnTmF&ust=1664391758320000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjF0szUtfoCFQAAAAAdAAAAABAE)" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
+<img src="https://www.saydaily.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_410/MTM0ODg3OTkwOTMyNTc1NTA2/screen-shot-2015-12-03-at-22820-pmpng.webp" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
 
 
 <!--
