@@ -26,8 +26,6 @@ Private repos will stay private until told otherwise.
 
 ## My GitHub Stats:
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
-
 <a href="#stats">
   <img align="center" src="https://readmestats.999857.xyz/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
 </a>
@@ -35,6 +33,8 @@ Private repos will stay private until told otherwise.
 <a href="#stats">
   <img align="center" src="https://readmestats.999857.xyz/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=true&theme=dracula&hide=Perl" alt="0xkuj's GitHub Stats">
 </a>
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
 
 ## Support & Suggestions
 <img src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
