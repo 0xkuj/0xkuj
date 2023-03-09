@@ -8,6 +8,7 @@ Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
 # Projects Reviews
+* [IPA Ranger](https://www.idownloadblog.com/2023/03/06/ipa-ranger/)
 * [Live Activities](https://www.idownloadblog.com/2022/08/27/live-activities/)
 * [3DAppVersionSpoofer](https://www.idownloadblog.com/2022/06/23/3dappversionspoofer/)
 * [Docbox](https://www.idownloadblog.com/2022/01/22/docbox/)
