@@ -27,6 +27,7 @@ Private repos will stay private until told otherwise.
 
 ## My GitHub Stats:
 
+![](https://komarev.com/ghpvc/?username=0xkuj)
 
 <a href="#stats">
   <img align="center" src="https://readmestats.999857.xyz/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=true&theme=dracula&hide=Perl" alt="0xkuj's GitHub Stats">
@@ -38,7 +39,6 @@ Private repos will stay private until told otherwise.
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
 
-![](https://komarev.com/ghpvc/?username=0xkuj)
 ## Support & Suggestions
 <img src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
 
