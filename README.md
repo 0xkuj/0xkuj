@@ -38,6 +38,7 @@ Private repos will stay private until told otherwise.
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
 
+![](https://komarev.com/ghpvc/?username=0xkuj)
 ## Support & Suggestions
 <img src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
 
