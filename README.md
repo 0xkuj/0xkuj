@@ -8,6 +8,7 @@ Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
 # Projects Reviews
+* [PrimeDeck](https://www.idownloadblog.com/2023/12/11/primedeck/)
 * [CCAdsBeGone](https://www.idownloadblog.com/2023/07/17/ccadsbegone/)
 * [IPA Ranger](https://www.idownloadblog.com/2023/03/06/ipa-ranger/)
 * [Live Activities](https://www.idownloadblog.com/2022/08/27/live-activities/)
