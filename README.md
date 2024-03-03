@@ -32,9 +32,6 @@ Private repos will stay private until told otherwise.
 
 ![](https://komarev.com/ghpvc/?username=0xkuj)
 
-<a href="#stats">
-  <img align="center" src="https://readmestats.999857.xyz/api/top-langs/?username=0xkuj&include_all_commits=true&count_private=true&theme=dracula&hide=Perl" alt="0xkuj's GitHub Stats">
-</a>
 <br>
 <a href="#stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
