@@ -37,9 +37,9 @@ Private repos will stay private until told otherwise.
 </a>
 <br>
 <a href="#stats">
-  <img align="center" src="https://readmestats.999857.xyz/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
 </a>
-
+ 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
 
 ## Support & Suggestions
