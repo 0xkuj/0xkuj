@@ -34,15 +34,13 @@ Private repos will stay private until told otherwise.
 
 <br>
 <a href="#stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=dracula&show_icons=true&count_private=true">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=0xkuj&include_all_commits=true&theme=dark&show_icons=true&count_private=true">
 </a>
  
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dracula)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xkuj&theme=dark)
 
 ## Support & Suggestions
-<img src="https://pnggrid.com/wp-content/uploads/2021/07/Twitter-Logo-Square.png" width="25px"> **[Send me a message](https://twitter.com/omrkujman)**
-
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/X_icon_2.svg/2048px-X_icon_2.svg.png" width="25px"> **[Send me a message](https://x.com/0xkuj)**
 <!--
 **0xkuj/0xkuj** is a ✨ _special_ ✨ repository
 -->
