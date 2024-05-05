@@ -8,6 +8,7 @@ Every open-source tweak will contain screenshots.
 Private repos will stay private until told otherwise.
 
 # Projects Reviews
+* [SnoozeLabels](https://www.idownloadblog.com/2024/05/03/snoozelabels/)
 * [SafariX](https://onejailbreak.com/blog/safarix-tweak/)
 * [PrimeDeck](https://www.idownloadblog.com/2023/12/11/primedeck/)
 * [CCAdsBeGone](https://www.idownloadblog.com/2023/07/17/ccadsbegone/)
