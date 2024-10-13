@@ -28,7 +28,7 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 ### 🏆 Top Ranked:
 
 - **[SafariX](https://onejailbreak.com/blog/safarix-tweak/)**  
-  A must-have tweak for power users of Safari, bringing must-have features.
+  A must-have tweak for power users of Safari, bringing QoL essential features.
 
 - **[3DAppVersionSpoofer](https://www.idownloadblog.com/2022/06/23/3dappversionspoofer/)** ([Source Code](https://github.com/0xkuj/3DAppVersionSpoofer))  
   Spoof app and iOS version through your 3D Touch menu, useful for older devices.
