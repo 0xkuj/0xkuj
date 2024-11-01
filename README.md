@@ -49,6 +49,9 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 ## 🌟 Other Projects
 
+- **[NotificationsGroupCount](https://www.idownloadblog.com/2024/10/31/notificationsgroupcount/)** ([Source Code](https://github.com/0xkuj/NotificationsGroupCount))  
+  Count your grouped notifications on your lockscreen (inspired by iOS 18.1)
+  
 - **[NoPasteAlerts16](https://www.idownloadblog.com/2024/09/13/nopastealerts16/)** ([Source Code](https://github.com/0xkuj/NoPasteAlerts16))  
   Remove the annoying paste alerts introduced in iOS 16.
 
