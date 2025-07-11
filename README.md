@@ -32,7 +32,10 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 - **[3DAppVersionSpoofer](https://www.idownloadblog.com/2022/06/23/3dappversionspoofer/)** ([Source Code](https://github.com/0xkuj/3DAppVersionSpoofer))  
   Spoof app and iOS version through your 3D Touch menu, useful for older devices.
-
+  
+- **[IPA Ranger](https://www.idownloadblog.com/2023/03/06/ipa-ranger/)** ([Source Code](https://github.com/0xkuj/IPARanger))  
+  The powerful IPA tool with a GUI interface
+  
 - **[FilzaDirProbe](https://www.idownloadblog.com/2024/08/07/filzadirprobe/)**  
   Filza File Manager extension to display your folder sizes with sorting options.
 
@@ -41,9 +44,6 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 - **[Live Activities](https://www.idownloadblog.com/2022/08/27/live-activities/)**  
   Watch live modules such as your alarm, calendar, reminders, stopwatch and more with interaction options directly on your lockscreen
-
-- **[IPA Ranger](https://www.idownloadblog.com/2023/03/06/ipa-ranger/)** ([Source Code](https://github.com/0xkuj/IPARanger))  
-  The powerful IPA tool with a GUI interface
 
 ---
 
