@@ -23,7 +23,7 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🏆 Top Ranked:
 
@@ -47,7 +47,7 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 ---
 
-## 🌟 Other Projects
+## Other Projects
 
 - **[NotificationsGroupCount](https://www.idownloadblog.com/2024/10/31/notificationsgroupcount/)** ([Source Code](https://github.com/0xkuj/NotificationsGroupCount))  
   Count your grouped notifications on your lockscreen (inspired by iOS 18.1)
@@ -89,7 +89,7 @@ _Everything looks better in dark mode! 🌙 Adjust your [theme settings](https:/
 
 <div align="center">
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <a href="#stats">
   <img src="https://readmestats.999857.xyz/api?username=0xkuj&include_all_commits=true&theme=dark&show_icons=true&count_private=true" alt="0xkuj GitHub Stats">
