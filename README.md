@@ -8,7 +8,6 @@
 
 <a href="https://github.com/0xkuj?tab=followers"><img src="https://img.shields.io/github/followers/0xkuj?label=followers&style=flat-square&color=302b63&labelColor=0f0c29" alt="Followers"/></a>
 <a href="https://github.com/0xkuj?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/0xkuj?label=stars&style=flat-square&color=302b63&labelColor=0f0c29" alt="Stars"/></a>
-<a href="https://x.com/0xkuj"><img src="https://img.shields.io/badge/@0xkuj-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
 <img src="https://komarev.com/ghpvc/?username=0xkuj&label=profile%20views&style=flat-square&color=302b63" alt="Profile views"/>
 
 </div>
