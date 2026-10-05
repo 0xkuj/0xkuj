@@ -1,7 +1,8 @@
 """Generate the tweak cards shown in README.md.
 
 Each card is a stack of linked SVG pieces (a body plus one row per link),
-rendered in three widths and picked per screen size via <picture>.
+laid out two per row on wide screens and one per row elsewhere,
+with each piece picked per screen size via <picture>.
 
     python3 scripts/gencards.py            # redraw cards (fetches live stars/forks)
     python3 scripts/gencards.py --readme   # also rewrite the README card sections
@@ -45,12 +46,19 @@ MORE = [
     ('nativecolorpickercellexample', 'NativeColorPickerCellExample', 'placeholder', 'Native color picker cell for tweak devs', None, 'NativeColorPickerCellExample'),
 ]
 
-# suffix, media query, width, icon, name px, desc px, row height, row px
-TIERS = [
-    ('l', '(min-width: 1012px)', 640, 56, 17, 14, 40, 14),
-    ('m', '(min-width: 768px)', 400, 52, 15, 13, 38, 13),
-    ('s', None, 340, 48, 15, 13, 38, 13),
+# Layouts. Wide desktops (GitHub's README column is a fixed 846px there) get two
+# cards per row; everything narrower gets one card per row. Every piece of the
+# README markup is a <picture> that collapses to a 0x0 image outside its layout.
+PAIR_MEDIA = '(min-width: 1280px)'
+# suffix, media query, piece width, side inset, icon, name px, desc px, row height, row px
+PAIR = ('x', PAIR_MEDIA, 420, 6, 52, 15, 13, 38, 13)
+SINGLE = [
+    ('l', '(min-width: 1012px)', 560, 0, 56, 17, 14, 40, 14),
+    ('m', '(min-width: 544px)', 400, 0, 52, 15, 13, 38, 13),
+    ('s', None, 340, 0, 48, 15, 13, 38, 13),
 ]
+GAP = 16  # space above each card
+
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 BG, BORDER, NAME, DESC, LINK, R = '#161b22', '#30363d', '#e6edf3', '#8b949e', '#A78BFA', 12
 
@@ -111,29 +119,37 @@ def fork(x, cy, s):
             f'<path d="M{x + 2 * u:.1f},{cy - 2.4 * u:.1f} v1.4 q0,1.6 1.6,1.6 h2.8 q1.6,0 1.6,-1.6 v-1.4 M{x + 5 * u:.1f},{cy + .6 * u:.1f} v2.3"/></g>')
 
 
-def body_svg(t, name, icon, desc):
-    _, _, W, ic, nsz, dsz, _, _ = t
-    pad = 16
-    x = pad + ic + 14
-    lines = wrap(desc, dsz, W - x - pad)
+def body_height(t, desc):
+    _, _, PW, M, ic, nsz, dsz, _, _ = t
+    x = 16 + ic + 14
+    lines = wrap(desc, dsz, PW - 2 * M - x - 16)
     lh = round(dsz * 1.4)
+    return lines, lh, max(ic + 32, nsz + 8 + lh * len(lines) + 36)
+
+
+def body_svg(t, name, icon, desc, min_h=0):
+    _, _, PW, M, ic, nsz, dsz, _, _ = t
+    CW, pad = PW - 2 * M, 16
+    x = pad + ic + 14
+    lines, lh, H = body_height(t, desc)
+    H = max(H, min_h)
     text_h = nsz + 8 + lh * len(lines)
-    H = max(ic + 2 * pad, text_h + 2 * pad + 4)
     ty = (H - text_h) / 2 + nsz
     e = lambda s: html.escape(s, quote=True)
     desc_t = ''.join(f'<text x="{x}" y="{ty + 8 + lh * (i + 1) - 3:.0f}" font-family="{FONT}" font-size="{dsz}" fill="{DESC}">{e(l)}</text>'
                      for i, l in enumerate(lines))
     iy = (H - ic) / 2
-    return svg(W, H,
+    return svg(PW, GAP + H,
                f'<defs><clipPath id="c"><rect x="{pad}" y="{iy}" width="{ic}" height="{ic}" rx="{ic * .225:.1f}"/></clipPath></defs>'
-               f'<path d="{shape(W, H, True, False)}" fill="{BG}" stroke="{BORDER}"/>'
+               f'<g transform="translate({M},{GAP})">'
+               f'<path d="{shape(CW, H, True, False)}" fill="{BG}" stroke="{BORDER}"/>'
                f'<image x="{pad}" y="{iy}" width="{ic}" height="{ic}" clip-path="url(#c)" href="data:image/png;base64,{icon_b64(icon)}"/>'
-               f'<text x="{x}" y="{ty:.0f}" font-family="{FONT}" font-size="{nsz}" font-weight="600" fill="{NAME}">{e(name)}</text>{desc_t}')
+               f'<text x="{x}" y="{ty:.0f}" font-family="{FONT}" font-size="{nsz}" font-weight="600" fill="{NAME}">{e(name)}</text>{desc_t}</g>')
 
 
 def row_svg(t, label, last, counts=None):
-    _, _, W, _, _, _, H, sz = t
-    pad = 16
+    _, _, PW, M, _, _, _, H, sz = t
+    W, pad = PW - 2 * M, 16
     cy = H / 2 + sz * 0.35
     extra = ''
     if counts:
@@ -146,11 +162,12 @@ def row_svg(t, label, last, counts=None):
         send = fx - 12
         extra += f'<text x="{send:.1f}" y="{cy:.1f}" text-anchor="end" font-family="{FONT}" font-size="{sz - 1}" fill="{DESC}">{s_txt}</text>'
         extra += star(send - tw(s_txt, sz - 1) - 4 - sz * 0.42, H / 2, sz * 0.45)
-    return svg(W, H,
+    return svg(PW, H,
+               f'<g transform="translate({M},0)">'
                f'<path d="{shape(W, H, False, last)}" fill="{BG}" stroke="{BORDER}"/>'
                f'<text x="{pad}" y="{cy:.1f}" font-family="{FONT}" font-size="{sz}" fill="{LINK}" font-weight="600">{html.escape(label)}</text>'
                f'{extra}'
-               f'<path d="M{W - pad - 5},{H / 2 - 5} l5,5 l-5,5" fill="none" stroke="{DESC}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>')
+               f'<path d="M{W - pad - 5},{H / 2 - 5} l5,5 l-5,5" fill="none" stroke="{DESC}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>')
 
 
 def site(u):
@@ -182,29 +199,66 @@ def write(path, content):
         open(path, 'w').write(content)
 
 
-def draw(slug, name, icon, desc, article, repo):
+def pairs(items):
+    return [items[i:i + 2] for i in range(0, len(items), 2)]
+
+
+def draw(items):
+    write('blank.svg', svg(0, 0, ''))
+    write('filler-x.svg', svg(PAIR[2], PAIR[7], ''))
+    write('spacer-x.svg', svg(PAIR[2], 0, ''))
+    for group in pairs(items):
+        min_h = max(body_height(PAIR, c[3])[2] for c in group)
+        for slug, name, icon, desc, article, repo in group:
+            rows = rows_for(article, repo)
+            counts = repo_counts(repo) if repo else None
+            for t, h in [(PAIR, min_h)] + [(t, 0) for t in SINGLE]:
+                write(f'{slug}-{t[0]}.svg', body_svg(t, name, icon, desc, h))
+                for i, (kind, _, label) in enumerate(rows):
+                    write(f'{slug}-{kind}-{t[0]}.svg', row_svg(t, label, i == len(rows) - 1, counts if kind == 'code' else None))
+
+
+def pic(sources, fallback, alt=''):
+    srcs = ''.join(f'<source media="{m}" srcset="{RAW}{f}.svg">' for m, f in sources)
+    return f'<picture>{srcs}<img src="{RAW}{fallback}.svg" alt="{html.escape(alt, quote=True)}" align="top"></picture>'
+
+
+def link(url, inner):
+    return f'<a href="{url}">{inner}</a>'
+
+
+def pair_piece(fname, url, alt):
+    return link(url, pic([(PAIR_MEDIA, f'{fname}-x')], 'blank', alt))
+
+
+def single_piece(fname, url, alt):
+    sources = [(PAIR_MEDIA, 'blank')] + [(m, f'{fname}-{s}') for s, m, *_ in SINGLE if m]
+    return link(url, pic(sources, f'{fname}-s', alt))
+
+
+def pieces(slug, name, desc, article, repo):
     rows = rows_for(article, repo)
-    counts = repo_counts(repo) if repo else None
-    for t in TIERS:
-        write(f'{slug}-{t[0]}.svg', body_svg(t, name, icon, desc))
-        for i, (kind, _, label) in enumerate(rows):
-            write(f'{slug}-{kind}-{t[0]}.svg', row_svg(t, label, i == len(rows) - 1, counts if kind == 'code' else None))
-
-
-def piece(fname, url, alt):
-    srcs = ''.join(f'<source media="{m}" srcset="{RAW}{fname}-{s}.svg">' for s, m, *_ in TIERS if m)
-    return f'<a href="{url}"><picture>{srcs}<img src="{RAW}{fname}-s.svg" alt="{html.escape(alt, quote=True)}" align="top"></picture></a><br>'
-
-
-def card_html(slug, name, icon, desc, article, repo):
-    rows = rows_for(article, repo)
-    out = [piece(slug, rows[0][1], f'{name} — {desc}')]
-    out += [piece(f'{slug}-{kind}', url, label.removeprefix('</> ')) for kind, url, label in rows]
-    return '\n'.join(out)
+    body = (slug, rows[0][1], f'{name} — {desc}')
+    return body, [(f'{slug}-{kind}', url, label.removeprefix('</> ')) for kind, url, label in rows]
 
 
 def section(items):
-    return '<p align="center">\n' + '\n<br>\n'.join(card_html(*c) for c in items) + '\n</p>'
+    filler = pic([(PAIR_MEDIA, 'filler-x')], 'blank')
+    spacer = pic([(PAIR_MEDIA, 'spacer-x')], 'blank')
+    out = []
+    for group in pairs(items):  # two-column layout, interleaved line by line
+        cards = [pieces(slug, name, desc, article, repo) for slug, name, _, desc, article, repo in group]
+        lone = len(cards) == 1
+        out += [pair_piece(*body) + (spacer if lone else '') for body, _ in cards]
+        for i in range(max(len(rows) for _, rows in cards)):
+            for _, rows in cards:
+                out.append(pair_piece(*rows[i]) if i < len(rows) else filler)
+            if lone:
+                out.append(spacer)
+    for slug, name, _, desc, article, repo in items:  # one-column layout
+        body, rows = pieces(slug, name, desc, article, repo)
+        out += [single_piece(*body)] + [single_piece(*r) for r in rows]
+    return '<p align="center">' + ''.join(out) + '</p>'
 
 
 def update_readme():
@@ -218,7 +272,9 @@ def update_readme():
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    for c in FEATURED + MORE:
-        draw(*c)
+    for f in os.listdir(OUT):
+        os.remove(f'{OUT}/{f}')
+    draw(FEATURED)
+    draw(MORE)
     if '--readme' in sys.argv:
         update_readme()
