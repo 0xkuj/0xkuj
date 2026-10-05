@@ -24,6 +24,7 @@ Open-source iOS tweaks, scripts and tools, with details and screenshots for each
 <a href="https://www.idownloadblog.com/2021/08/03/contacts-extended/"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/contactsextended.svg" width="400" alt="Contacts Extended — Contact options from Recents, bulk actions &amp; more"></a>
 <a href="https://www.idownloadblog.com/2022/08/27/live-activities/"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities.svg" width="400" alt="Live Activities — Interactive alarms, timers, reminders &amp; more on your Lock Screen"></a>
 </p>
+<p align="center"><sub><b>Source code:</b> <a href="https://github.com/0xkuj/IPARanger">IPA Ranger</a> · <a href="https://github.com/0xkuj/3DAppVersionSpoofer">3DAppVersionSpoofer</a></sub></p>
 
 <details>
 <summary><b>More tweaks & tools</b></summary>
@@ -48,6 +49,7 @@ Open-source iOS tweaks, scripts and tools, with details and screenshots for each
 <a href="https://github.com/0xkuj/FixWANotifs"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/fixwanotifs.svg" width="400" alt="FixWANotifs — Fix missing WhatsApp notifications by raising the NSE Jetsam limit"></a>
 <a href="https://github.com/0xkuj/NativeColorPickerCellExample"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample.svg" width="400" alt="NativeColorPickerCellExample — Native color picker cell for tweak devs"></a>
 </p>
+<p align="center"><sub><b>Source code:</b> <a href="https://github.com/0xkuj/NotificationsGroupCount">NotificationsGroupCount</a> · <a href="https://github.com/0xkuj/NoPasteAlerts16">NoPasteAlerts16</a> · <a href="https://github.com/0xkuj/SnoozeLabels">SnoozeLabels</a> · <a href="https://github.com/0xkuj/CCBackgrounder17">CCBackgrounder17</a> · <a href="https://github.com/0xkuj/BackgrounderAction15AutoState">BackgrounderAction15AutoState</a> · <a href="https://github.com/0xkuj/CCDNDTimer">CCDNDTimer</a> · <a href="https://github.com/0xkuj/CCTime13">CCTime13</a> · <a href="https://github.com/0xkuj/Hide-VOIP-Suggestions">Hide VoIP Suggestions</a> · <a href="https://github.com/0xkuj/CCCounters">CCCounters</a> · <a href="https://github.com/0xkuj/SiriTTL">SiriTTL</a> · <a href="https://github.com/0xkuj/LowerNotifs">LowerNotifs</a> · <a href="https://github.com/0xkuj/FixWANotifs">FixWANotifs</a> · <a href="https://github.com/0xkuj/NativeColorPickerCellExample">NativeColorPickerCellExample</a></sub></p>
 
 </details>
 
