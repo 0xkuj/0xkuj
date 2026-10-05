@@ -45,12 +45,41 @@ MORE = [
     ('nativecolorpickercellexample', 'NativeColorPickerCellExample', 'placeholder', 'Native color picker cell for tweak devs', None, 'NativeColorPickerCellExample'),
 ]
 
-# suffix, media query, width, icon, name px, desc px, row height, row px
-TIERS = [
-    ('l', '(min-width: 1012px)', 640, 56, 17, 14, 40, 14),
-    ('m', '(min-width: 768px)', 400, 52, 15, 13, 38, 13),
-    ('s', None, 340, 48, 15, 13, 38, 13),
-]
+# Cards fill GitHub's README column. Each piece sits on its own line, so a piece
+# wider than the column scales down to fit it exactly; tiers are sized to the
+# widest column they serve and split so nothing shrinks below MIN_SCALE.
+def column_width(vw):
+    """GitHub profile README column width for a given viewport width."""
+    if vw >= 1280:
+        return 846
+    if vw >= 1012:
+        return vw - 434
+    if vw >= 768:
+        return vw - 370
+    return vw - 82
+
+
+MIN_SCALE = 0.8
+
+
+def make_tiers():
+    tiers, top = [], 1280
+    while top >= 320:
+        w, v = column_width(top), top
+        while v - 1 >= 320 and column_width(v - 1) / w >= MIN_SCALE and column_width(v - 1) <= w:
+            v -= 1
+        tiers.append((v, w))
+        top = v - 1
+    out = []
+    for i, (vmin, w) in enumerate(tiers):
+        k = min(max((w - 300) / 546, 0), 1)  # 0 at 300px .. 1 at 846px
+        media = None if i == len(tiers) - 1 else f'(min-width: {vmin}px)'
+        # suffix, media query, width, icon, name px, desc px, row height, row px
+        out.append((str(w), media, w, round(48 + 12 * k), round(15 + 3 * k), round(13 + 2 * k), round(38 + 6 * k), round(13 + 2 * k)))
+    return out
+
+
+TIERS = make_tiers()
 FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 BG, BORDER, NAME, DESC, LINK, R = '#161b22', '#30363d', '#e6edf3', '#8b949e', '#A78BFA', 12
 
