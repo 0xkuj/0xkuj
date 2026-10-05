@@ -16,6 +16,7 @@ Open-source iOS tweaks, scripts and tools, with details and screenshots for each
 
 ## Featured Tweaks
 
+<!-- cards:featured:start -->
 <p align="center">
 <a href="https://onejailbreak.com/blog/safarix-tweak/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-s.svg" alt="SafariX — Must-have power-user upgrade for Safari with essential QoL features" align="top"></picture></a><br>
 <a href="https://onejailbreak.com/blog/safarix-tweak/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-article-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-article-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/safarix-article-s.svg" alt="Read on OneJailbreak" align="top"></picture></a><br>
@@ -37,11 +38,13 @@ Open-source iOS tweaks, scripts and tools, with details and screenshots for each
 <a href="https://www.idownloadblog.com/2022/08/27/live-activities/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-s.svg" alt="Live Activities — Interactive alarms, timers, reminders &amp; more on your Lock Screen" align="top"></picture></a><br>
 <a href="https://www.idownloadblog.com/2022/08/27/live-activities/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-article-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-article-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/liveactivities-article-s.svg" alt="Read on iDownloadBlog" align="top"></picture></a><br>
 </p>
+<!-- cards:featured:end -->
 
 <details>
 <summary><b>More tweaks & tools</b></summary>
 <br/>
 
+<!-- cards:more:start -->
 <p align="center">
 <a href="https://www.idownloadblog.com/2024/10/31/notificationsgroupcount/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-s.svg" alt="NotificationsGroupCount — Count grouped notifications on the Lock Screen" align="top"></picture></a><br>
 <a href="https://www.idownloadblog.com/2024/10/31/notificationsgroupcount/"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-article-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-article-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/notificationsgroupcount-article-s.svg" alt="Read on iDownloadBlog" align="top"></picture></a><br>
@@ -102,6 +105,7 @@ Open-source iOS tweaks, scripts and tools, with details and screenshots for each
 <a href="https://github.com/0xkuj/NativeColorPickerCellExample"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-s.svg" alt="NativeColorPickerCellExample — Native color picker cell for tweak devs" align="top"></picture></a><br>
 <a href="https://github.com/0xkuj/NativeColorPickerCellExample"><picture><source media="(min-width: 1012px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-code-l.svg"><source media="(min-width: 768px)" srcset="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-code-m.svg"><img src="https://raw.githubusercontent.com/0xkuj/0xkuj/main/assets/cards/nativecolorpickercellexample-code-s.svg" alt="View source on GitHub" align="top"></picture></a><br>
 </p>
+<!-- cards:more:end -->
 
 </details>
 

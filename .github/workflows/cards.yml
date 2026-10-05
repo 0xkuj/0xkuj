@@ -1,0 +1,35 @@
+name: Update tweak cards
+
+on:
+  schedule:
+    - cron: '17 * * * *'  # hourly
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/gencards.py', 'assets/icons/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Redraw cards with live stars and forks
+        run: python3 scripts/gencards.py --readme
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if anything changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -A assets/cards README.md
+            git commit -m 'Update tweak card stats'
+            git push
+          fi
